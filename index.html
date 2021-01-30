@@ -136,7 +136,8 @@
                     ticketPrice=ticketNewCount*150;
                 }
                 if(ticket=='economyClass'){
-                    ticketPrice=ticketNewCount*100;         }
+                    ticketPrice=ticketNewCount*100;         
+                }
                 document.getElementById(ticket + '-price').innerText=ticketPrice;
                 calculateTotal();
             };
@@ -166,7 +167,7 @@
             document.getElementById('bookingButton').addEventListener('click',function(){
                 document.getElementById('main').style.display='none';
                 document.getElementById('bookingSuccess').style.display='block';
-            })
+            });
     </script>
 </body>
 
